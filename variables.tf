@@ -13,3 +13,7 @@ variable "instance_name" {
   default     = "myterraform"
 }
 
+variable "instance_name2" {
+  description = "EC2 instance name"
+  default     = "myterraform2"
+}
